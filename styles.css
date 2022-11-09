@@ -1,0 +1,46 @@
+@font-face {
+  font-family: 'Graphik';
+  font-style: normal;
+  src: url(./vendor/fonts/Graphik/Graphik-Regular-Converted.woff2)
+}
+
+@font-face {
+  font-family: 'Graphik Semibold';
+  font-style: bold;
+  src: url(./vendor/fonts/Graphik/Graphik-Semibold-Converted.woff2);
+}
+
+body {
+  max-width: 425px;
+  min-width: 320px;
+  font-family: 'Graphik';
+  margin: 0;
+}
+
+table {
+  border-spacing: 10px;
+  border-collapse: separate;
+  text-align: left;
+  padding-left: 6px;
+  padding-right: 6px
+}
+
+h1 {
+  margin: 24px auto;
+  padding-left: 16px;
+  padding-right: 16px;
+  font-family: 'Graphik Semibold';
+}
+
+th {
+  font-family: 'Graphik Semibold';
+}
+
+tr {
+  border-right: 0px;
+}
+
+td {
+  min-width: 96px;
+  border-left: 0px;
+}
